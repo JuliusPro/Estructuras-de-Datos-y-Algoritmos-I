@@ -3,6 +3,8 @@
 int main(){
   
   // creo que anda, pero no lo probé mucho...
+  // Emm si el comentario está hecho en una cadena 
+  // también lo borra (a pesar de que no debería), pero bueh
   
   int p = 0, i, borrarEOL = 0, borrarPosta = 0;
   char s[1000005];
