@@ -7,7 +7,7 @@ int main(){
   int p = 0, i, borrarEOL = 0, borrarPosta = 0;
   char s[1000005];
   
-  while( (s[p++] = getchar()) != 'q' ); // Lee el archivo y lo guarda
+  while( (s[p++] = getchar()) != EOF ); // Lee el archivo y lo guarda
                                         // en el array s de tamaño p.
   for(i = 0; i < p; i++){
     if(borrarPosta == 1){
